@@ -20,6 +20,7 @@ folder_backup="/home/AutoBackup/" # Directory where the backups are located (abs
 
 1. Do `crontab -e`
 2. Add `[minute] [hour] * * * bash [Absolute path to script]/AutoBackup.sh`
+2. Reload `service cron reload`
 
 More details on http://www.linux-france.org/article/man-fr/man5/crontab-5.html
 
