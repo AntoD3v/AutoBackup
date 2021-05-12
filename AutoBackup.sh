@@ -28,5 +28,5 @@ echo -e "   Done !\n\n   Create backup for '$file_to_save' in '$folder_backup'"
 
 newBackupFile=$folder_backup"bkp_$(date  +"%Y-%m-%d_%H.%M.%S").zip"
 echo "   - Created backup in $newBackupFile"
-zip -r  $newBackupFile $file_to_save > /dev/null
+zip -r  $newBackupFile $file_to_save > /dev/null &
 echo -e "   Done !\n"
