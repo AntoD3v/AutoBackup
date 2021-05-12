@@ -13,8 +13,8 @@ folder_backup="/home/AutoBackup/" # Directory where the backups are located (abs
 
 ### Setup & Run
 
-1. Do `git clone https://github.com/AntoZzz/AutoBackup && cd AutoBackup`
-1. Do `bash AutoBackup`
+1. Do `git clone https://github.com/AntoZzz/AutoBackup && cd AutoBackup` to download
+1. Finally `bash AutoBackup` to run
 
 ### With Cron (Linux)
 
