@@ -11,6 +11,11 @@ file_to_save="/home/testbackup" # Directory to be saved (absolute path required)
 folder_backup="/home/AutoBackup/" # Directory where the backups are located (absolute path required with a "/" at the end)
 ```
 
+### Setup & Run
+
+1. Do `git clone https://github.com/AntoZzz/AutoBackup && cd AutoBackup`
+1. Do `bash AutoBackup`
+
 ### With Cron (Linux)
 
 1. Do `crontab -e`
